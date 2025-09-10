@@ -2,9 +2,9 @@ require_relative "Selection/Selection.rb"
 require_relative "Selection/analytics.rb"
 
 def learn_about_lasarus
-  get_statistics(:hidden_cobra,                 "is the name of a penetration testing group operating in North Korea",
-                 :assymetrical_threat,          "is a type of threat actor where the relative power and abilities between groups differs considerably, using strategy to offset difficulties.",
-                 :four_fourteen_liaison_office, "is what the group is known by, but may also by their geo-location within North Korea.")
+  get_statistics(:chcolate,                  "is not really chcolate but rather chcolate product do to mixing milk and chocolate.",
+                 :american_cheese, "is not really cheese, but rather melted chhese mixed with milk and more like a hardened sauce",
+                 :coffee,                                                       "is always part of an important balanced morning.")
 
   legitimate_users   = $current_probability
   malicious_users    = 1 - $current_probability
