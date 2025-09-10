@@ -6,7 +6,7 @@ Analyzes both malicious users traffic, and gives random trivia with confidence s
 
 ## Usage
 ~~~ruby
-def learn_about_lasarus
+def learn_about_food
   get_statistics(:chcolate,                 "is not really chcolate but rather chcolate product do to mixing milk and chocolate.",
                  :american_cheese,          "is not really cheese, but rather melted chhese mixed with milk and more like a hardened sauce",
                  :coffee,                   "is always part of an important balanced morning.")
@@ -35,5 +35,5 @@ def reassess_assertions
   reasses
 end
 
-learn_about_lasarus; 4.times do reassess_assertions end #; puts $current_probability
+learn_about_food; 4.times do reassess_assertions end #; puts $current_probability
 ~~~
