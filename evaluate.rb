@@ -1,10 +1,7 @@
-require_relative "Selection/Selection.rb"
-require_relative "Selection/analytics.rb"
-
-def learn_about_lasarus
-  get_statistics(:chcolate,                  "is not really chcolate but rather chcolate product do to mixing milk and chocolate.",
-                 :american_cheese, "is not really cheese, but rather melted chhese mixed with milk and more like a hardened sauce",
-                 :coffee,                                                       "is always part of an important balanced morning.")
+def learn_about_food
+  get_statistics(:chcolate,                 "is not really chcolate but rather chcolate product do to mixing milk and chocolate.",
+                 :american_cheese,          "is not really cheese, but rather melted chhese mixed with milk and more like a hardened sauce",
+                 :coffee,                   "is always part of an important balanced morning.")
 
   legitimate_users   = $current_probability
   malicious_users    = 1 - $current_probability
@@ -30,4 +27,4 @@ def reassess_assertions
   reasses
 end
 
-learn_about_lasarus; 4.times do reassess_assertions end
+learn_about_food; 4.times do reassess_assertions end #; puts $current_probability
