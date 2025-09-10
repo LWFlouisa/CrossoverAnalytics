@@ -27,12 +27,6 @@ def learn_about_lasarus
   difference_in_traffic(legitimate_users, 166)
 end
 
-def learn_about_zq
-  get_statistics(:mythology, "Zoe Quin likes the way greek mythology explains the environment",
-                 :ferret_owning, "Zoe Quin keeps ferrets as support animals, as they mirror her own needs",
-                 :megalophobia, "Zoe Quin has fear of grand scale things do to induced trauma.")
-end
-
 def reconsider_assertions
   reconsider
 end
